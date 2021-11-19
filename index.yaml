@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  rss-bridge:
+  - apiVersion: v2
+    appVersion: "2021-04-25"
+    created: "2021-11-19T23:28:34.0411633+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: rss-bridge helm package
+    digest: 85efc1c90edc6214a093cef292240927913cd7391e7a607337a082bde231761f
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/rss-bridge
+    icon: https://github.com/RSS-Bridge/rss-bridge/blob/master/static/logo_600px.png
+    keywords:
+    - rss-bridge
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: rss-bridge@rss-bridge.com
+      name: rss-bridge
+    name: rss-bridge
+    sources:
+    - https://github.com/RSS-Bridge/rss-bridge
+    - https://hub.docker.com/r/rssbridge/rss-bridge
+    urls:
+    - https://davosian.github.io/helm-charts/rss-bridge-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-11-19T23:28:34.0346609+01:00"
